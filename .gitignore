@@ -1,0 +1,11 @@
+.venv/
+node_modules/
+dist/
+.env
+.env.local
+.env.test
+*.db
+data/backups/
+apps/api/uploads/
+__pycache__/
+!.gitkeep

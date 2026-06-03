@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  @apply bg-[#0a0a0f] text-zinc-200 antialiased overflow-x-hidden;
+  font-family: "Space Mono", ui-monospace, monospace;
+}
+
+/* Brighter muted text for readability on dark / space background */
+@layer utilities {
+  .text-zinc-400 {
+    color: var(--color-zinc-200);
+  }
+
+  .text-zinc-500 {
+    color: var(--color-zinc-300);
+  }
+
+  .text-zinc-600 {
+    color: var(--color-zinc-400);
+  }
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-zinc-400);
+  opacity: 1;
+}
+
+/* Only hide the system cursor when the portfolio custom cursor is active */
+body.custom-cursor-active {
+  cursor: none;
+}
+
+body.custom-cursor-active a,
+body.custom-cursor-active button {
+  cursor: none;
+}
+
+@media (pointer: coarse) {
+  body.custom-cursor-active {
+    cursor: auto;
+  }
+
+  body.custom-cursor-active a,
+  body.custom-cursor-active button {
+    cursor: pointer;
+  }
+}
+
+/* Admin and forms: always show normal cursor */
+.admin-page,
+.admin-page a,
+.admin-page button,
+.admin-page input,
+.admin-page textarea,
+.admin-page label {
+  cursor: auto;
+}
+
+.admin-page a,
+.admin-page button,
+.admin-page input[type="file"],
+.admin-page label[for] {
+  cursor: pointer;
+}

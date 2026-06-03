@@ -1,0 +1,65 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: apps/web/package-lock.json
+
+      - name: Configure build
+        working-directory: apps/web
+        run: |
+          if [ -z "${{ vars.VITE_API_URL }}" ]; then
+            echo "::error::Set repository variable VITE_API_URL (e.g. https://portfolio-api-2xt8.onrender.com)"
+            exit 1
+          fi
+          BASE="${{ vars.VITE_BASE_PATH }}"
+          if [ -z "$BASE" ]; then
+            BASE="/${{ github.event.repository.name }}/"
+          fi
+          echo "VITE_API_URL=${{ vars.VITE_API_URL }}" >> $GITHUB_ENV
+          echo "VITE_BASE_PATH=$BASE" >> $GITHUB_ENV
+          echo "Building for base path: $BASE"
+
+      - name: Build
+        working-directory: apps/web
+        run: |
+          npm ci
+          npm run build
+          cp dist/index.html dist/404.html
+          touch dist/.nojekyll
+          test -f dist/index.html
+
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: apps/web/dist
+          publish_branch: gh-pages
+          force_orphan: true
+
+      - name: Summary
+        run: |
+          echo "## GitHub Pages" >> $GITHUB_STEP_SUMMARY
+          echo "Settings → Pages → **gh-pages** branch, **/ (root)**" >> $GITHUB_STEP_SUMMARY
+          echo "Site: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/" >> $GITHUB_STEP_SUMMARY

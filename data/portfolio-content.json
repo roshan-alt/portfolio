@@ -1,0 +1,248 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-02T01:26:08.655107+00:00",
+  "profile": {
+    "headline": "IoT & ML Engineer | Turning AIoT Research into Deployable Systems ",
+    "location": "Wolfville, NS",
+    "full_name": "Roshan Adhikari",
+    "avatar_url": "",
+    "github_url": "https://github.com/roshan-alt",
+    "hero_tagline": "Building interactive systems that ship.",
+    "updated_at": "2026-06-01T22:50:11.906508",
+    "summary": "Most CS students spend their degree studying systems. I spend mine building them.\nAs a Research Assistant and Technical Support at Acadia University's AIoT Research Hub, I work on real deployed hardware — not simulations, not toy datasets. Real sensors. Real environments. Real problems.\nI designed and built a compost monitoring system from scratch — integrating CO₂, temperature, and humidity sensors to collect live environmental data for research analysis. I'm currently prototyping a LoRaWAN wireless sensor network for greenhouse monitoring, taking it through hardware design, firmware, and testing toward full deployment.\nBeyond building, I run lab operations, organize workshops, and mentor students as a Teaching Assistant — because I think understanding something deeply means being able to teach it clearly.\nMy stack: Python · C++ · LoRaWAN · MQTT · Embedded Systems · IoT Protocols · ML Pipelines\nI'm a 3rd-year Computer Science student at Acadia University, actively looking for Summer 2026 internships in IoT Engineering, Software Engineering, or ML Engineering.\nIf you're building at the edge of AI and physical systems — let's connect.",
+    "id": "profile",
+    "email": "roshanadhikari0420@gmail.com",
+    "linkedin_url": "https://www.linkedin.com/in/roshanadhikarii",
+    "website_url": "",
+    "floating_images": []
+  },
+  "experience": [
+    {
+      "id": "c18a61ff-9b01-424d-a5d0-521f94c780a2",
+      "location": "Wolfville, NS",
+      "end_date": null,
+      "order": 0,
+      "company": "Acadia AIoT Research Hub",
+      "start_date": "Mar 2025",
+      "title": "Research Assistant & Technical Support",
+      "description": "Designed and built a full compost monitoring system integrating CO₂, temperature, humidity, and ambient sensors — delivering a working research-grade data collection platform\nPrototyped a LoRaWAN-based wireless sensor network for greenhouse monitoring, leading hardware selection, firmware development, and pre-deployment testing\nMaintained and troubleshot lab infrastructure, ensuring uninterrupted operation of research equipment and IoT testbeds\nOrganized and facilitated technical workshops, improving lab members' hands-on skills with IoT hardware and protocols"
+    },
+    {
+      "id": "9e7614aa-2b21-4f0b-8f0c-221be2cad7e2",
+      "location": "Wolfville, NS",
+      "end_date": null,
+      "order": 1,
+      "company": "Acadia University",
+      "start_date": "Sep 2025",
+      "title": "Teaching Assistant",
+      "description": "Supported students in understanding complex technical concepts across IoT and CS fundamentals, reducing friction in lab sessions Provided 1-on-1 and group technical guidance, helping peers debug hardware and software issues faster Contributed to a collaborative lab environment that accelerated peer learning and project progress"
+    }
+  ],
+  "education": [
+    {
+      "field": "Computer Science Hons.",
+      "id": "1e241d0c-57d2-4ad1-9019-5a972a2841ab",
+      "end_date": null,
+      "order": 0,
+      "degree": "Bachelor",
+      "start_date": "Sep 2024",
+      "school": "Acadia University",
+      "description": ""
+    }
+  ],
+  "skills": [
+    {
+      "id": "40b3fbc3-2da2-4c5b-815a-bb270db9ef10",
+      "name": "C/C++",
+      "order": 0
+    },
+    {
+      "id": "4403d785-a129-438d-8d9a-8faf4d039493",
+      "name": "Python",
+      "order": 1
+    },
+    {
+      "id": "2333ca36-bb2b-4a9e-a6fe-e609d99c88ad",
+      "name": "Java",
+      "order": 2
+    },
+    {
+      "id": "2e802274-5a50-490a-9446-b7f841533031",
+      "name": "Embedded Systems",
+      "order": 3
+    },
+    {
+      "id": "dae07a60-6c02-43f3-95e0-a4730ff3ecdc",
+      "name": "Django",
+      "order": 4
+    },
+    {
+      "id": "6e7fae0c-d675-4d83-adfb-2146c995d2c1",
+      "name": "FastAPI",
+      "order": 5
+    },
+    {
+      "id": "899acb3d-220d-499d-a86d-708b33a35f82",
+      "name": "React JS",
+      "order": 6
+    },
+    {
+      "id": "46e1ee82-f32c-401e-8561-727e6b170636",
+      "name": "ESP32",
+      "order": 7
+    },
+    {
+      "id": "6f0c7b5e-8b92-4433-9d52-2e80668b15a2",
+      "name": "Internet of Things (IoT)",
+      "order": 8
+    },
+    {
+      "id": "d1002f79-a9af-4d2f-a005-396f15ea3fb5",
+      "name": "LoRaWAN",
+      "order": 9
+    },
+    {
+      "id": "1ecb70ae-1a84-4433-ba91-a63aac4d9ac2",
+      "name": "API",
+      "order": 10
+    },
+    {
+      "id": "c0671aca-66c4-4fa0-8673-ee7ffd8e8ab8",
+      "name": "HTML",
+      "order": 11
+    },
+    {
+      "id": "2a62cdc7-9fc6-4d9a-a7d2-990ce3082726",
+      "name": "CSS",
+      "order": 12
+    },
+    {
+      "id": "4f8bf6fd-f843-4850-89af-d0ad288d59f3",
+      "name": "JS",
+      "order": 13
+    },
+    {
+      "id": "b26b82f9-6ef8-41de-b97a-ea8b496854ec",
+      "name": "SQL",
+      "order": 14
+    },
+    {
+      "id": "33abe8c8-f5ee-4edf-b263-722bc6ade7fc",
+      "name": "Database Management Systems",
+      "order": 15
+    },
+    {
+      "id": "2063d482-b97a-4164-aa52-a7a271995a9a",
+      "name": "Git",
+      "order": 16
+    },
+    {
+      "id": "f0c0f962-6e1e-45b9-971a-97d5b3fc76f7",
+      "name": "Github",
+      "order": 17
+    },
+    {
+      "id": "b54fb7a8-1314-4a8a-b4d6-e8534af58d67",
+      "name": "Flask",
+      "order": 18
+    },
+    {
+      "id": "6cf5ec4d-7e33-4b7a-a3c5-4fa2f3d3e86b",
+      "name": "Tailwind CSS",
+      "order": 19
+    },
+    {
+      "id": "cc6e9119-f3cd-49da-a0b7-879fcc3b5a5d",
+      "name": "Postgres SQL",
+      "order": 20
+    },
+    {
+      "id": "e0a953fc-1fc9-4967-a4c4-65d26b7f9988",
+      "name": "SQLite",
+      "order": 21
+    }
+  ],
+  "projects": [
+    {
+      "url": "",
+      "id": "db44df68-8311-4bcb-b327-d44bf77fcfa8",
+      "tags": [
+        "STM32",
+        "LoRaWAN",
+        "Embedded Software Programming",
+        "Internet of Things (IoT)",
+        "SenseCAP",
+        "Wireless Sensor Networks",
+        "C/C++"
+      ],
+      "order": 0,
+      "title": "LoRaWAN Wireless Sensor Network for Greenhouse Monitoring",
+      "description": "Designing and building a low-power wireless sensor network for real-time greenhouse environmental monitoring using LoRaWAN — a long-range, low-power IoT protocol built for exactly this kind of deployed field application.\nWorking independently under faculty supervision at the Acadia AIoT Research Hub, I am developing firmware on the STM32WL55JC1 — a microcontroller with an integrated LoRa radio — to acquire environmental readings from a BME280 sensor (temperature, pressure, humidity) and transmit them wirelessly through a SenseCAP M2 LoRaWAN gateway to a cloud platform for storage and analysis.\nThis project covers the full embedded IoT stack: sensor integration, low-level firmware development, wireless protocol configuration, and gateway-to-cloud pipeline setup — all on production-grade hardware targeting real greenhouse deployment.\nKey contributions:\n→ Selected and integrated BME280 sensor for multi-parameter environmental sensing (temperature, humidity, pressure)\n→ Writing low-level firmware in C/C++ for the STM32WL55JC1, a dual-core MCU with integrated sub-GHz LoRa radio\n→ Configuring LoRaWAN stack for reliable long-range wireless transmission to SenseCAP M2 gateway\n→ Architecting end-to-end data pipeline from sensor node → LoRaWAN gateway → cloud storage\n→ Conducting prototype testing in preparation for live greenhouse deployment",
+      "image_url": "",
+      "featured": true
+    },
+    {
+      "url": "",
+      "id": "dbac7d61-118d-4650-ba6d-008a0832f99b",
+      "tags": [
+        "ESP32 Microcontrollers",
+        "C (Programming Language)",
+        "C++",
+        "Internet of Things (IoT)",
+        "Embedded Systems",
+        "Smart Agriculture",
+        "Sensor Fusion",
+        "ThingSpeak"
+      ],
+      "order": 1,
+      "title": "IoT Compost Monitoring System with ML-Driven Analysis",
+      "description": "Built a full end-to-end IoT pipeline that collects real environmental data from compost and feeds it into a machine learning model for prediction and analysis — bridging embedded hardware, wireless data transmission, and applied ML in a single research system.\nMy role — Hardware & Firmware (ESP32 · C/C++):\nIntegrated a DS18B20 temperature sensor and SCD40 CO₂/humidity sensor onto an ESP32 microcontroller, writing firmware in C/C++ to continuously capture compost temperature, ambient temperature, CO₂, and humidity readings. Engineered the data pipeline to stream live sensor data to ThingSpeak, a cloud IoT platform, for persistent storage and real-time visualization.\nPartner's role — ML & Data Analysis (Claire):\nUsing the dataset collected by the sensor system, my research partner applied machine learning models to perform environmental predictions and data analysis on compost behaviour over time.\nThis project represents a complete AIoT workflow — from physical sensor to cloud to intelligent analysis.\nKey contributions:\n→ Integrated DS18B20 + SCD40 sensors on ESP32 for multi-parameter environmental monitoring\n→ Wrote C/C++ firmware for reliable continuous data acquisition and transmission\n→ Configured ThingSpeak pipeline for real-time cloud data logging and visualization\n→ Co-designed the system architecture that enabled downstream ML analysis",
+      "image_url": "",
+      "featured": true
+    },
+    {
+      "url": "",
+      "id": "20e23e0b-1996-4aaa-b665-104b46cea656",
+      "tags": [
+        "Python",
+        "Flask",
+        "HTML",
+        "Tailwind CSS",
+        "SQLite"
+      ],
+      "order": 2,
+      "title": "Inventory Management System",
+      "description": "",
+      "image_url": "",
+      "featured": true
+    }
+  ],
+  "blog_posts": [],
+  "certifications": [],
+  "languages": [],
+  "volunteer": [],
+  "honors": [],
+  "publications": [
+    {
+      "publisher": "Science Direct",
+      "title": "Developing a New IoT Network Topology for Effective Greenhouse Monitoring and Control",
+      "publication_date": "Aug 2025",
+      "description": "Greenhouses provide a controlled environment that supports optimal plant growth by controlling key environmental conditions. However, traditional greenhouse systems face challenges such as real-time data collection and monitoring of accurate environmental parameters. IoT is becoming a critical tool in addressing these concerns and optimizing environmental monitoring in greenhouses. This paper presents an IoT-based Wireless Sensor Network (WSN) for smart greenhouse monitoring. The system is implemented at the K.C. Irving Environmental Science Centre in Wolfville, NS. It integrates Crossbow Iris Motes with sensors for temperature, humidity, and light to collect and transmit real-time environmental data. The system uses a Raspberry Pi as a processing hub to clean and modify data before it is sent to InfluxDB, which acts as a central server for accessing and storing the data. Grafana is used next for data visualization and analytics. Additionally, we discuss the potential for integrating Artificial Intelligence (AI) into the system. This includes predictive analytics to support decision-making and automation, as well as anomaly detection to ensure smooth system operation. Our system addresses key limitations of existing systems by improving scalability and real-time responsiveness. It also lays the groundwork for future project iterations through the integration of expanded sensor networks and AI. This work contributes to the advancement of smart agriculture by using IoT to enable energy-efficient, data-driven greenhouse management that supports plant growth and health.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1877050925022331",
+      "id": "add167c6-f5fd-4565-92fb-33037f5b2e83",
+      "order": 0
+    },
+    {
+      "publisher": "Science Direct",
+      "title": "Comparative Analysis of Scalable IoT Topologies for Optimal and Precise Greenhouse Environment Monitoring",
+      "publication_date": "Oct 2025",
+      "description": "Precision agriculture is vital for optimizing parameters for plant growth and health particularly in controlled environments like greenhouses. The Internet of Things (IoT) is a driver of this, and Wireless Sensor Networks provide a structured approach for data acquisition in these environments. While WSNs are widely implemented, there is limited empirical comparison of signal performance metrics across different sensor motes. This study presents a comparative analysis using the Received Signal Strength Indicator (RSSI) parameter of two different IoT devices, Iris Mote and Zolertia RE-Mote in a greenhouse environment, specifically at the K.C. Irving Environmental Science Centre Greenhouse at Acadia University. Results indicate that the Zolertia RE-Mote offers superior range, processing power, and energy efficiency, making it better suited for scalable deployments. These findings highlight the importance of environment specific testing for WSN deployment in precision agriculture.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1877050925035215",
+      "id": "9cfe32cd-b0d1-4821-8efd-4dc91e969343",
+      "order": 1
+    }
+  ],
+  "courses": [],
+  "recommendations": [],
+  "contact_messages": []
+}
