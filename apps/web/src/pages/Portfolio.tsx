@@ -33,7 +33,13 @@ export function Portfolio() {
   const linkedinUrl = safeHttpUrl(p.linkedin_url)
   const githubUrl = safeHttpUrl(p.github_url)
   const navItems = buildPortfolioNavItems(data, !!p.summary)
-  const navBrand = p.full_name?.split(/\s+/)[0] || 'Home'
+  const navBrand =
+    p.full_name
+      ?.split(/\s+/)
+      .map((w) => w[0])
+      .join('')
+      .slice(0, 2)
+      .toUpperCase() || 'RA'
 
   return (
     <>
@@ -46,7 +52,7 @@ export function Portfolio() {
         </div>
       )}
       <CustomCursor />
-      <ScrollNav brand={navBrand} items={navItems} />
+      <ScrollNav brand={navBrand} items={navItems} contactHref={mailto} />
       <SiteScrollBackground images={p.floating_images || []} />
 
       <div className="relative z-10">

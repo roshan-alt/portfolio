@@ -19,6 +19,19 @@ body {
   font-family: "Space Mono", ui-monospace, monospace;
 }
 
+/* Reference-style navbar uses system sans */
+.font-sans {
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+}
+
 /* Brighter muted text for readability on dark / space background */
 @layer utilities {
   .text-zinc-400 {
