@@ -1,0 +1,1 @@
+import{j as l}from"./three-vendor-lR4GxxAH.js";function m({start:t,end:n,extra:e,endLabel:i,className:o="text-zinc-400 text-sm mt-1"}){if(!t&&!n&&!e)return null;const r=t?`${t} — ${n||"Present"}`:n?`${i??"Until"} ${n}`:"";return l.jsx("p",{className:o,children:[r,e].filter(Boolean).join(" · ")})}export{m as D};
